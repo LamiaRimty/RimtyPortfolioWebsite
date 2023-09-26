@@ -1,7 +1,7 @@
 import "./App.css";
-//  import Header from "./components/Header/Header";
-//  import Home from "./components/Home/Home";
-//  import Footer from "./components/Footer/Footer";
+ import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
+import Footer from "./components/Footer/Footer";
 //  import Qualification from "./components/Qualification/Qualification";
 //  import Portfolio from "./components/Portfolio/Portfolio";
 
@@ -12,14 +12,14 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-    {/* <Header />
-    <Home />  
-    <Qualification />  
+     <Header />
+     <Home />  
+   {/* <Qualification />  
     <Portfolio />
     <Skills />
        <About />
-     <Contact /> 
-      <Footer />  */}
+     <Contact />  */}
+      <Footer /> 
     </div>
   );
 }
