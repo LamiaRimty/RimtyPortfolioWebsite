@@ -22,13 +22,13 @@ function Footer() {
           </div>
 
           <div className="nav col-md-4 justify-content-end">
-            <ul className="list-unstyled d-flex " id="footer-links">
+            <ul className="list-unstyled d-flex footer-links" id="footer-links">
               <li className="ms-3">
                 <a
                   className="footer-link text-body-secondary"
                   href="https://www.facebook.com/L.J.Rimty"
                 >
-                  <i className="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-facebook footer-icon"></i>
                 </a>
               </li>
               <li className="ms-3">
@@ -36,7 +36,7 @@ function Footer() {
                   className="footer-link text-body-secondary"
                   href="https://www.instagram.com/ik_rimty?fbclid=IwAR16dk9evu7OMdz1STbLtI2xAwTaPAo6KdBDXHD9kek9bcdvgtgEK9f7qIw"
                 >
-                  <i className="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram footer-icon"></i>
                 </a>
               </li>
               <li className="ms-3">
@@ -44,7 +44,7 @@ function Footer() {
                   className="footer-link text-body-secondary"
                   href="https://www.youtube.com/channel/UCQ2ahPn5cdvouccPDnT3oGg"
                 >
-                  <i className="fa-brands fa-youtube"></i>
+                  <i className="fa-brands fa-youtube footer-icon"></i>
                 </a>
               </li>
             </ul>

@@ -1,0 +1,42 @@
+.portfolio-container{
+    align-items: center;
+    justify-content: center;
+    
+ 
+}
+
+.portfolio-img{
+    width: 180px;
+    height: 460px;
+    border: 10px solid var(--first-color-lighter);
+    background: transparent; 
+  
+    opacity: 0.8;
+}
+
+
+/* .slide{
+background: transparent;
+opacity: 0.9;
+} */
+.carousel-caption{
+  color: var(--first-color);
+   background: transparent; 
+  
+    opacity: 0.8;
+    background-color:var(--first-color-lighter);
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carosal-title{
+    font-size:30px;
+    font-weight: bolder;
+    color:var(--first-color-light);
+}
+.carosal-info{
+    font-size:20px;
+    font-weight: bold;
+    color:var(--first-color-light)
+
+}

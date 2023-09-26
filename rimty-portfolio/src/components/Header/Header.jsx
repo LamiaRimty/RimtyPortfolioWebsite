@@ -79,7 +79,7 @@ function Header() {
                   className="footer-link text-body-secondary"
                   href="https://www.facebook.com/L.J.Rimty"
                 >
-                  <i className="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-facebook header-icon"></i>
                 </a>
               </li>
               <li className="ms-3 social-links" id="social-links">
@@ -87,7 +87,7 @@ function Header() {
                   className="footer-link text-body-secondary"
                   href="https://www.instagram.com/ik_rimty?fbclid=IwAR16dk9evu7OMdz1STbLtI2xAwTaPAo6KdBDXHD9kek9bcdvgtgEK9f7qIw"
                 >
-                  <i className="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram header-icon"></i>
                 </a>
               </li>
               <li className="ms-3 social-link" id="social-links">
@@ -95,7 +95,7 @@ function Header() {
                   className="footer-link text-body-secondary"
                   href="https://www.youtube.com/channel/UCQ2ahPn5cdvouccPDnT3oGg"
                 >
-                  <i className="fa-brands fa-youtube"></i>
+                  <i className="fa-brands fa-youtube header-icon"></i>
                 </a>
               </li>
             </ul>

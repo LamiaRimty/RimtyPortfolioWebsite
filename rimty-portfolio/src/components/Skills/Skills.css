@@ -1,0 +1,75 @@
+/* Skills */
+
+
+
+
+
+.skills-container{
+    row-gap: 0;
+}
+.skills-header{
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
+}
+
+.skills-icon,.skills-arrow{
+   font-size: 32px;
+   color: var(--first-color);
+}
+
+.skills-icon{
+    /* margin-right: var(--mb-0-75); */
+    background-color: var(--first-color-lighter);
+    padding:0 10px 0 10px;
+    border-radius: 10px;
+}
+
+.skills-title{
+    font-size: var(--h3);
+    font-weight: 600;
+    color: var(--first-color-2nd);
+}
+.skills-arrow{
+ margin-left: auto;
+ transition: .4s;
+}
+
+.list-group-item{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: var(--font-medium);
+    color: var(--first-color);
+}
+
+.skills-titles{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+
+.skills-name{
+    font-size: var(--normal-font);
+    font-weight: var(--font-medium);
+}
+
+
+#skill{
+    text-align: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.skills-close .skills-list{
+    height: 0;
+    overflow: hidden;
+}
+
+.skills-open ,.skills-list{
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+}
+.skills-open .skills-arrow{
+    transform: rotate(-180deg);
+}
