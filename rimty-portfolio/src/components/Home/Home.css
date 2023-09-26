@@ -1,0 +1,29 @@
+.home-title{
+    /* font-size: var(--big-font); */
+   
+    font-family:fantasy;
+}
+
+.home-subtitle{
+    
+    font-size: var(--h3);
+    color:var(--title-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-75);
+}
+
+.home-desc{
+    color: var(--first-color-light);
+    margin-bottom: var(--mb-2);
+    font-weight: 300;
+}
+
+.home-img{
+    
+    margin:auto;
+    /* width: 200px; */
+    justify-content: center;
+    align-self: center;
+ 
+    
+  }

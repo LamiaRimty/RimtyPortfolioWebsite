@@ -1,7 +1,7 @@
 import "./App.css";
  import Header from "./components/Header/Header";
-// import Home from "./components/Home/Home";
-import Footer from "./components/Footer/Footer";
+ import Home from "./components/Home/Home";
+ import Footer from "./components/Footer/Footer";
 //  import Qualification from "./components/Qualification/Qualification";
 //  import Portfolio from "./components/Portfolio/Portfolio";
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
      <Header/>
-     {/* <Home />   */}
+     <Home />  
    {/* <Qualification />  
     <Portfolio />
     <Skills />
