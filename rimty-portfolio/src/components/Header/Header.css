@@ -25,21 +25,25 @@
 }
 
 .nav-link:hover{
-    color: var(--first-color-2nd);
+    color: #9EB384;
 }
 
 #active-nav{
     font-weight:600 ;
 }
 
-#navbarNav{
-    /* justify-content:flex-end; */
-    justify-content:space-evenly;
-   
-}
 
 .header-icon{
     /* color: #9EB384; */
     color: #435334;
 }
 
+.nav-item{
+    
+    padding: 0px 10px;
+}
+
+.header-icon:hover{
+    color: #9EB384;
+   
+}
