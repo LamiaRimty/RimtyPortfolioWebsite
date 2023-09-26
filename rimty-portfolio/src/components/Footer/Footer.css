@@ -1,0 +1,25 @@
+.foorterImg{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.footer-intro{
+    font-weight: 500;
+ 
+}
+.footer-brand{
+  
+    font-size: 20px;
+}
+
+
+
+#footer{
+background-color:var(--first-color-2nd);
+
+}
+
+.footer-intro , .footer-copy,.footer-brand, .fa-brands  {
+    color: #FAF1E4;
+}
